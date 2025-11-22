@@ -1,18 +1,29 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+An interactive Java application for visualizing the Mandelbrot set.
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+src/ — source code
+lib/ — external dependencies (if any)
+bin/ — compiled output files
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Running
+Make sure you have Java 17+ installed.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Clone the repository:
+
+git clone https://github.com/Clonnexxx/Mandelbrot-Set-Viewer
+
+
+Compile and run:
+
+cd Mandelbrot-Set-Viewer
+javac -d bin src/**/*.java
+java -cp bin Main
 
 ## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+You can view and manage dependencies using the JAVA PROJECTS panel in Visual Studio Code.
+More details: https://github.com/microsoft/vscode-java-dependency#manage-dependencies
