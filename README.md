@@ -4,9 +4,9 @@ An interactive Java application for visualizing the Mandelbrot set.
 
 ## Folder Structure
 
-src/ — source code
-lib/ — external dependencies (if any)
-bin/ — compiled output files
+- src/ — source code
+- lib/ — external dependencies (if any)
+- bin/ — compiled output files
 
 
 ## Running
